@@ -1,28 +1,16 @@
-## Imgur Voice
+## TODO List
 
-We're making a voice search for imgur.com. It will take use of the Web Speech API available in Chrome.
-
-- [Workshop's finished project](https://carpetfizz.github.io/imgur-voice/)
-- [Google's example for the web speech API](https://developers.google.com/web/updates/2013/01/Voice-Driven-Web-Apps-Introduction-to-the-Web-Speech-API?hl=en)
-- [Web Speech API Documentation (dense)](https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html)
-
+You're going to make a TODO list application using HTML/CSS and JavaScript.
 
 ### Prerequisites
 
 - Have git working -- ask for help if you are having trouble with git
 
-- Have a text editor
+- Have a text editor: Sublime, Atom, Vim, etc.
 
-- Know how to user the developer tools in Chrome [refresher](https://github.com/dvcoders/intro-html-css/blob/master/reference/README.md#what-are-your-browsers-developer-tools-and-how-can-they-be-used)
+- Have a recent version of Chrome (try going to the [finished project](https://carpetfizz.github.io/imgur-voice/) to see if your browser is recent enough
 
-- [Register your app with imgur to use their API](https://api.imgur.com/oauth2/addclient)
-	- Create an imgur account if you don't have one
-	- Name your app what you want
-	- Authorization Type: `Anonymous usage without user authorization`
-	- Callback URL: `https://localhost:8000`
-- Your client ID for interacting with the imgur API can be found [here](https://imgur.com/account/settings/apps)
-- Take note of that ID, you'll be using it during the workshop
-
+- Know how to use the developer tools in Chrome [refresher](https://github.com/dvcoders/intro-html-css/blob/master/reference/README.md#what-are-your-browsers-developer-tools-and-how-can-they-be-used)
 
 ### Getting the workshop
 
@@ -41,6 +29,8 @@ If you were at last week's workshop and already forked/cloned the dvcoders/intro
  - `git remote add upstream https://github.com/dvcoders/intro-js.git`
 5. `git fetch upstream`
  - This fetches the new changes added to the intermediate-js folder in the dvcoder's intro-js repository
+ - It places the changes in branches called upstream/[branch-name]
+6. `git merge upstream/master` to merge the changes to your master branch
 
 - Github goes into detail about this process [here](https://help.github.com/articles/syncing-a-fork/)
 
